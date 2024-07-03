@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+table {
+    margin: 50px auto;
+    width: 800px;
+    background-color: #eee;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+tbody tr td {
+    border: 1px solid #ccc;
+}
+table thead {
+    background-color: #333;
+    color: white;
+}
+
+table thead th {
+    padding: 5px;
+}
+
+.img-size {
+    width: 60px;
+    height: 70px;
+    border: 4px solid white;
+}
+
+.spanView {
+    margin-left: 7px;
+    background-color: #03A9F4;
+    color: white;
+    padding: 5px;
+}
+.spanDelete {
+    margin-left: 7px;
+    background-color: #E91E63;
+    color: white;
+    padding: 5px;
+}
